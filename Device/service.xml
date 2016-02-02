@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+   <specVersion>
+      <major>1</major>
+      <minor>0</minor>
+   </specVersion>
+   <actionList>
+      <action>
+         <name>getBrightness</name>
+         <argumentList>
+            <argument>
+               <name>returnBrightness</name>
+               <direction>out</direction>
+               <retval />
+               <relatedStateVariable>brightness</relatedStateVariable>
+            </argument>
+         </argumentList>
+      </action>
+      <action>
+         <name>getTemperature</name>
+         <argumentList>
+            <argument>
+               <name>returnTemperature</name>
+               <direction>out</direction>
+               <retval />
+               <relatedStateVariable>temperature</relatedStateVariable>
+            </argument>
+         </argumentList>
+      </action>
+      <action>
+         <name>setBrightness</name>
+         <argumentList>
+            <argument>
+               <name>inputBrightness</name>
+               <direction>in</direction>
+               <relatedStateVariable>brightness</relatedStateVariable>
+            </argument>
+         </argumentList>
+      </action>
+      <action>
+         <name>setTemperature</name>
+         <argumentList>
+            <argument>
+               <name>inputTemperature</name>
+               <direction>in</direction>
+               <relatedStateVariable>temperature</relatedStateVariable>
+            </argument>
+         </argumentList>
+      </action>
+   </actionList>
+   <serviceStateTable>
+      <stateVariable sendEvents="yes">
+         <name>brightness</name>
+         <dataType>i4</dataType>
+      </stateVariable>
+      <stateVariable sendEvents="yes">
+         <name>temperature</name>
+         <dataType>i4</dataType>
+      </stateVariable>
+   </serviceStateTable>
+</scpd>

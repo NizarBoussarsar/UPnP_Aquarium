@@ -1,0 +1,4 @@
+C:\Users\ASUS\Desktop\UPnP_Aquarium\UPnP_Aquarium\bin\Release\SampleDevice.exe
+C:\Users\ASUS\Desktop\UPnP_Aquarium\UPnP_Aquarium\bin\Release\UPnP.dll
+C:\Users\ASUS\Desktop\UPnP_Aquarium\UPnP_Aquarium\obj\Release\SampleDevice.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\UPnP_Aquarium\UPnP_Aquarium\obj\Release\SampleDevice.exe
